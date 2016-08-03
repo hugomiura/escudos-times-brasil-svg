@@ -18,4 +18,10 @@ svg.escudo {
   width: 30px;
   height: 30px;
   position: absolute;
+  cursor: pointer;
+}
+
+svg.escudo:hover{
+	opacity: 0.5;
+	filter: alpha(opacity=50); /* For IE8 and earlier */
 }
