@@ -1,0 +1,21 @@
+/* CSS File */
+
+h2{clear:left; font-family: Arial}
+   
+ul{
+    list-style: none
+}
+    
+li { 
+    width: 30px;
+    height: 30px;
+    display: block;
+    float: left;
+    margin: 2px
+}
+
+svg.escudo {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+}
