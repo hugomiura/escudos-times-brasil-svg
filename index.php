@@ -7,7 +7,7 @@
 	<link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <!--#include file="serie-a.svg"-->
+  <?php require "serie-a.svg"; ?>
 	<h2>Série A</h2>
 	<ul>
 	<li>	
@@ -112,7 +112,7 @@
 	</li>
 </ul>
 
-<!--#include file="serie-b.svg"-->
+<?php require "serie-b.svg"; ?>
 <h2>Série B</h2>
 
 <ul>
